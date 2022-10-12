@@ -1,0 +1,30 @@
+{
+    "name": "abosaif/keywords",
+    "description": "make keywords tags from some words sprated with new line",
+    "type": "libbrary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "magda",
+            "email": "magdasaif3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+              "AboSaif\\Keywords\\":"src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+              "AboSaif\\Keywords\\Tests\\":"tests/"
+        }
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "php": "^8.0.2"
+    }
+}
